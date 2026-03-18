@@ -30,16 +30,16 @@ public class principal {
         // 3. Regra do Nome
         System.out.println("--- Nome ---");
         if (name.length() > 6) {
-            // Exibe n vezes
+
             for (int i = 0; i < n; i++) {
                 System.out.println(name);
             }
         } else {
-            // Exibe somente 1 vez
+
             System.out.println(name);
         }
 
-        sc.close(); // Boa prática fechar o scanner
+        sc.close();
     }
 
 }
